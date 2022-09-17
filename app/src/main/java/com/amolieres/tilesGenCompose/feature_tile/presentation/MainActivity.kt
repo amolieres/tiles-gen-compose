@@ -1,4 +1,4 @@
-package com.amolieres.tilesGenCompose
+package com.amolieres.tilesGenCompose.feature_tile.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
