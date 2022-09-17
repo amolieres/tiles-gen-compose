@@ -11,6 +11,4 @@ class GetTiles(
     operator fun invoke(): Flow<List<Tile>> {
         return repository.getTiles()
     }
-
-
 }

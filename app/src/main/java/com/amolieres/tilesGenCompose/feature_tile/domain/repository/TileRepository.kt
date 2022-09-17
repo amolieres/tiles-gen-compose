@@ -7,7 +7,7 @@ interface TileRepository {
 
     fun getTiles(): Flow<List<Tile>>
 
-    fun insertTiles(tiles: List<Tile>)
+    suspend fun insertTiles(tiles: List<Tile>)
 
-    fun clearTiles()
+    suspend fun clearTiles()
 }

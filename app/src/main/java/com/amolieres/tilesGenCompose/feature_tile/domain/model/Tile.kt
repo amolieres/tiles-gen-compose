@@ -10,7 +10,7 @@ data class Tile(
                 @PrimaryKey val index: Int) {
 
     /*companion object {
-        val tileColors = listOf(RedOrange, LightGreen, Violet, BabyBlue, RedPink)
+        val tileColors = listOf(Gray, White, Black)
     }*/
 }
 
